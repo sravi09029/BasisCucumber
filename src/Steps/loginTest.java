@@ -33,6 +33,7 @@ public class loginTest {
 	@After("@prodnew") // tags hooks
 	public void setcloseprod() {
 		System.out.println("close browser --- production");
+		System.out.println("codding is change");
 	}
 
 	@Given("^user open the browser$")
@@ -45,6 +46,7 @@ public class loginTest {
 	public void user_navigates_url() throws Throwable {
 
 		System.out.println("@when--user navigates url");
+		System.out.println("coding is unchanged");
 	}
 
 	@When("^user clicks MyAccount$")
